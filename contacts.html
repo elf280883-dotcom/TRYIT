@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти — TRYIT | Реєстрація та зв’язок</title>
+  <meta name="description" content="Зв’яжіться з клубом TRYIT: телефон, email, форма реєстрації в клубі та заявка на корпоративні заходи.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">TRY<span>IT</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="activities.html">Активності</a>
+        <a href="events.html">Події</a>
+        <a href="how-it-works.html">Як це працює</a>
+        <a href="reviews.html">Відгуки</a>
+        <a href="contacts.html" class="active">Контакти</a>
+        <a href="contacts.html#register" class="nav-cta">Приєднатися</a>
+      </nav>
+      <button class="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Зв’язок</span>
+      <h1>Контакти та реєстрація</h1>
+      <p>Залиш заявку на участь у клубі, разовий квиток або корпоративний захід. Ми відповімо протягом робочого дня.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Як з нами зв’язатися</h3>
+          <div class="contact-item">
+            <div class="contact-icon">☎</div>
+            <div>
+              <strong>Телефон</strong>
+              <a href="tel:+380677629841">067 762 98 41</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:ann280883@gmail.com">ann280883@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Місто</strong>
+              <span>Київ, Україна</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div>
+              <strong>Telegram</strong>
+              <span>Після реєстрації — доступ до офіційного бота клубу</span>
+            </div>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1.5rem;">Працюємо з фокусом на безпеку: локації з укриттями, гнучке перенесення подій.</p>
+        </div>
+
+        <div>
+          <div class="form-card" id="register">
+            <h3 style="margin-bottom: 1.2rem; font-family: var(--font-serif);">Реєстрація в клубі</h3>
+            <form data-form>
+              <div class="form-fields">
+                <div class="form-group">
+                  <label for="name">Ім’я та прізвище</label>
+                  <input type="text" id="name" name="name" required placeholder="Як до вас звертатися">
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+380">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="you@email.com">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="package">Пакет</label>
+                  <select id="package" name="package" required>
+                    <option value="">Оберіть пакет</option>
+                    <option value="starter">Starter — 1 800 грн/міс (2 події)</option>
+                    <option value="pro">PRO — 3 200 грн/міс (4 події)</option>
+                    <option value="test">Test Drive — 1 100 грн (1 подія)</option>
+                    <option value="corporate">Corporate Experience</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Коментар (необов’язково)</label>
+                  <textarea id="message" name="message" placeholder="Питання або побажання"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%;">Надіслати заявку</button>
+              </div>
+              <div class="form-success">
+                <h3>Дякуємо!</h3>
+                <p>Заявка прийнята. Ми зв’яжемося з вами найближчим часом для підтвердження та оплати.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-soft);" id="corporate">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">B2B</span>
+        <h2>Корпоративні заходи</h2>
+        <p class="lead" style="margin: 0 auto;">Ексклюзивні виїзні нетипові тімбілдинги від 10 осіб. Повна організація під ключ.</p>
+      </div>
+      <div class="form-card">
+        <form data-form>
+          <div class="form-fields">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-name">Контактна особа</label>
+                <input type="text" id="c-name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="c-company">Компанія</label>
+                <input type="text" id="c-company" name="company" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-phone">Телефон</label>
+                <input type="tel" id="c-phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="c-email">Email</label>
+                <input type="email" id="c-email" name="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c-people">Орієнтовна кількість учасників</label>
+              <input type="number" id="c-people" name="people" min="10" placeholder="від 10">
+            </div>
+            <div class="form-group">
+              <label for="c-message">Опис запиту</label>
+              <textarea id="c-message" name="message" placeholder="Формат, дати, побажання..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Надіслати запит</button>
+          </div>
+          <div class="form-success">
+            <h3>Запит надіслано</h3>
+            <p>Ми підготуємо пропозицію та зв’яжемося з вами.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">TRY<span>IT</span></a>
+          <p>Клуб нового досвіду. Відкривай більше. Пробуй нове.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Навігація</h4>
+          <a href="about.html">Про нас</a>
+          <a href="activities.html">Активності</a>
+          <a href="events.html">Події</a>
+          <a href="how-it-works.html">Як це працює</a>
+        </div>
+        <div class="footer-col">
+          <h4>Участь</h4>
+          <a href="contacts.html#register">Реєстрація</a>
+          <a href="reviews.html">Відгуки</a>
+          <a href="contacts.html">Контакти</a>
+        </div>
+        <div class="footer-col">
+          <h4>Зв’язок</h4>
+          <a href="tel:+380677629841">067 762 98 41</a>
+          <a href="mailto:ann280883@gmail.com">ann280883@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>Клуб нового досвіду. Відкривай більше. Пробуй нове.</div>
+        <div>© 2026 TRYIT. Усі права захищені.</div>
+        <div class="dev">Розробка сайту — Бабенко Анна, 2026.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
